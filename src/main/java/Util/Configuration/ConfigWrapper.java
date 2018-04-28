@@ -21,7 +21,6 @@ public class ConfigWrapper {
     public ConfigWrapper(String path) {
         this.CONFIG_PATH = path;
         this.DEFAULT_CONFIG_PATH = System.getProperty("user.dir") + RELATIVE_DEFAULT_CONFIG_PATH;
-        System.out.println(CONFIG_PATH);
     }
 
     public void setConfigPath(String path) {
