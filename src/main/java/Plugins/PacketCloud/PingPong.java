@@ -6,15 +6,8 @@ import sx.blah.discord.handle.impl.events.guild.channel.message.MessageReceivedE
 
 public class PingPong extends Plugin {
 
-    private static final String PLUGIN_NAME = "Plugins.PacketCloud.PingPong";
-
     public PingPong(Managers.ClientManager clientManager){
         super(clientManager);
-    }
-
-    @Override
-    public String getName() {
-        return PLUGIN_NAME;
     }
 
     @EventSubscriber

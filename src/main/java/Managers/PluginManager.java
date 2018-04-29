@@ -1,34 +1,39 @@
 package Managers;
 
+import PluginLoader.Plugin;
 import PluginLoader.PluginList;
 import PluginLoader.PluginLoader;
 
 public class PluginManager {
 
-    private PluginList PList = null;
+    private PluginList PluginList;
 
     public PluginManager(ClientManager client) {
-        PList = PluginLoader.loadPlugins(client);
+        PluginList = PluginLoader.loadPlugins(client);
     }
 
     public void onRestart() {
-        PList.onRestart();
+        PluginList.onRestart();
     }
 
     public void onRestartComplete() {
-        PList.onRestartComplete();
+        PluginList.onRestartComplete();
     }
 
     public void onShutdown() {
-        PList.onShutdown();
+        PluginList.onShutdown();
     }
 
     public boolean onConsoleInput(String RawConsoleInput) {
-        return PList.onConsoleInput(RawConsoleInput);
+        return PluginList.onConsoleInput(RawConsoleInput);
     }
 
     public PluginList getPluginList() {
-        return PList;
+        return PluginList;
+    }
+
+    public boolean requestUnload(Plugin p) {
+        return PluginList.removePlugin(p);
     }
 
 }

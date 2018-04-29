@@ -1,6 +1,7 @@
 package Managers;
 
 import Bootstrap.Bootstrapper;
+import PluginLoader.Plugin;
 import PluginLoader.PluginList;
 import Util.Configuration.ConfigWrapper;
 import Util.Configuration.Configuration;
@@ -47,6 +48,7 @@ public class ClientManager {
     }
 
     private void loadPlugins() {
+        Logger.logContext(this.getClass(), "Loading plugins...");
         PManager = new PluginManager(this);
     }
 
@@ -84,6 +86,10 @@ public class ClientManager {
         return true;
     }
 
+    public boolean requestUnload(Plugin p) {
+        return PManager.requestUnload(p);
+    }
+
     public Configuration getConfig() {
         return Config;
     }
@@ -93,7 +99,6 @@ public class ClientManager {
     }
 
     public PluginList getPluginList() {
-        if (PManager == null) return null;
         return PManager.getPluginList();
     }
 }

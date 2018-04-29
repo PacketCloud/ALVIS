@@ -1,0 +1,4 @@
+{
+    "name": "DialogflowPlugin",
+    "classpath": "Plugins.Google.Dialogflow.DialogflowPlugin"
+}

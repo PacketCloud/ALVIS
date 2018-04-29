@@ -9,14 +9,11 @@ import sx.blah.discord.api.IDiscordClient;
 public abstract class Plugin {
 
     private ClientManager ClientManager;
-    private PluginList PluginList;
     private IDiscordClient Client;
-
-    private String PLUGIN_ABSOLUTE_ROOT_DIRECTORY;
+    private PluginProperties PluginProperties;
 
     public Plugin(ClientManager clientManager) {
         this.ClientManager = clientManager;
-        this.PluginList = clientManager.getPluginList();
         this.Client = clientManager.getDiscordClient();
 
         Client.getDispatcher().registerListener(this);
@@ -88,10 +85,11 @@ public abstract class Plugin {
     }
 
     /**
-     * The name given to this plugin.
-     * @return - the name of the plugin.
+     * Sends request to the ClientManager to be unloaded.
      */
-    public abstract String getName();
+    public final boolean requestUnload() {
+        return ClientManager.requestUnload(this);
+    }
 
     /**
      * Code that executes when a custom event is received, allowing plugins to interact.
@@ -123,7 +121,7 @@ public abstract class Plugin {
      * @return true if a plugin handled the request, false otherwise.
      */
     public final boolean broadcastCustomEvent(CustomEvent event) {
-        return PluginList.broadcastCustomEvent(event);
+        return getPluginList().broadcastCustomEvent(event, this);
     }
 
     /**
@@ -132,7 +130,7 @@ public abstract class Plugin {
      * @return true if the request was handled, false otherwise.
      */
     public final boolean transmitCustomEvent(EventPackage eventPackage) {
-        return PluginList.transmitCustomEvent(eventPackage);
+        return getPluginList().transmitCustomEvent(eventPackage);
     }
 
     /**
@@ -143,7 +141,14 @@ public abstract class Plugin {
      * @return true if the request was handled, false otherwise.
      */
     public final boolean transmitCustomEvent(CustomEvent event, Plugin targetPlugin, Plugin senderPlugin) {
-        return PluginList.transmitCustomEvent(event, targetPlugin, senderPlugin);
+        return getPluginList().transmitCustomEvent(event, targetPlugin, senderPlugin);
+    }
+
+    public final String getName() {
+        if (PluginProperties != null) {
+            return PluginProperties.getPluginName();
+        }
+        return "";
     }
 
     public final String getClassIdentifier() {
@@ -159,24 +164,33 @@ public abstract class Plugin {
     }
 
     public final PluginList getPluginList() {
-        return PluginList;
+        return getClientManager().getPluginList();
     }
 
     public final IDiscordClient getClient() {
         return Client;
     }
 
-    public final void setPLUGIN_ABSOLUTE_ROOT_DIRECTORY(String directory) {
-        this.PLUGIN_ABSOLUTE_ROOT_DIRECTORY = directory;
+    public final void setPluginProperties(PluginProperties properties) {
+        this.PluginProperties = properties;
     }
 
-    public final String getPLUGIN_ABSOLUTE_ROOT_DIRECTORY() {
-        return this.PLUGIN_ABSOLUTE_ROOT_DIRECTORY;
+    public final PluginProperties getPluginProperties() {
+        return this.PluginProperties;
+    }
+
+    public final boolean hasValidProperties() {
+        if (this.PluginProperties == null) return false;
+        return this.PluginProperties.isValid();
+    }
+
+    public final String getIdentifier() {
+        return this.PluginProperties.getPluginIdentifier();
     }
 
     @Override
     public final boolean equals(Object o) {
-        if (this.getClass().getName().equals(o.getClass().getName())){
+        if (this.getClass().getTypeName().equals(o.getClass().getTypeName())){
             return true;
         }
         return false;
@@ -187,8 +201,7 @@ public abstract class Plugin {
         return this.getClass().getName();
     }
 
-    public static void main(String[] args){
-
-    }
+    //Allows compilation of plugin
+    public final static void main(String[] args){}
 
 }

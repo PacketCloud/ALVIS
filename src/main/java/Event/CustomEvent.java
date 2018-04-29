@@ -1,31 +1,37 @@
 package Event;
 
-public abstract class CustomEvent extends sx.blah.discord.api.events.Event {
+import PluginLoader.Plugin;
 
-    private String SenderClassName;
+public class CustomEvent extends sx.blah.discord.api.events.Event {
 
-    public CustomEvent(Class SenderClass) {
-        SenderClassName = SenderClass.getCanonicalName();
+    private Plugin SenderPlugin;
+    private String SenderPluginIdentifier;
+
+    public CustomEvent(Plugin SenderPlugin) {
+        this.SenderPlugin = SenderPlugin;
+        this.SenderPluginIdentifier = SenderPlugin.getPluginProperties().getPluginIdentifier();
     }
 
-    /**
-     * Returns the name of the custom event. The name should be very specific to avoid conflict with other plugins.
-     * @return the name of the custom event.
-     */
-    public abstract String getEventName();
+    public final String getEventIdentifier() {
+        return this.getClass().getCanonicalName();
+    }
 
-    public String getSenderClassName() {
-        return SenderClassName;
+    public final String getSenderPluginIdentifier() {
+        return SenderPluginIdentifier;
+    }
+
+    public final Plugin getSenderPlugin() {
+        return this.SenderPlugin;
     }
 
     @Override
-    public boolean equals(Object o) {
+    public final boolean equals(Object o) {
         return toString().equals(o.toString());
     }
 
     @Override
-    public String toString() {
-        return getEventName();
+    public final String toString() {
+        return getEventIdentifier();
     }
 
 }

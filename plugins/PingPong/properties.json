@@ -1,3 +1,4 @@
 {
-    "plugin_classpath": "PacketCloud.PingPong"
+    "name": "PingPong"
+    "classpath": "Plugins.PacketCloud.PingPong"
 }

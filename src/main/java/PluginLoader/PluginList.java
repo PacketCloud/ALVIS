@@ -7,7 +7,7 @@ import java.util.ArrayList;
 
 public class PluginList {
 
-    private ArrayList<Plugin> PList = null;
+    private ArrayList<Plugin> PList;
 
     public PluginList() {
         this.PList = new ArrayList<>();
@@ -20,19 +20,28 @@ public class PluginList {
         }
         this.PList.add(plugin);
         plugin.onLoad();
-        Logger.logContext(PluginLoader.class, "Plugin '" + plugin.getName() + "' loaded.");
+        Logger.logContext(PluginLoader.class, "Plugin '" + plugin.getIdentifier() + "' loaded.");
         return true;
     }
 
     public boolean removePlugin(Plugin plugin) {
-        boolean isRemoved = this.PList.remove(plugin);
-        plugin.onUnload();
+        boolean isRemoved = false;
+        for (Plugin p : PList){
+            if (p.equals(plugin)){
+                isRemoved = PList.remove(p);
+            }
+        }
+        if (isRemoved){
+            plugin.onUnload();
+            Logger.logContext(PluginLoader.class, "Plugin '" + plugin.getIdentifier() + "' un-loaded.");
+        }
         return isRemoved;
     }
 
-    public boolean broadcastCustomEvent(CustomEvent event) {
+    public boolean broadcastCustomEvent(CustomEvent event, Plugin senderPlugin) {
         boolean isHandled = false;
         for (Plugin p : PList){
+            if (p.equals(senderPlugin)) continue;
             if (p.onCustomEvent(event)) isHandled = true;
         }
         return isHandled;
@@ -97,6 +106,10 @@ public class PluginList {
             if (p.equals(plugin)) return true;
         }
         return false;
+    }
+
+    public int size(){
+        return PList.size();
     }
 
 }
