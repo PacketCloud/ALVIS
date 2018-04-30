@@ -16,18 +16,9 @@ public class BotStatus extends Plugin {
         super(clientManager);
     }
 
-    @Override
-    public boolean onCustomEvent(CustomEvent event) {
-        boolean handled = false;
-        switch(event.toString()){
-
-            case "Plugins.Core.StatusRequestEvent":
-                sendStatusReport(((StatusRequestEvent) event).getChannel());
-                handled = true;
-                break;
-
-        }
-        return handled;
+    @EventSubscriber
+    public void onStatusRequestEvent(StatusRequestEvent event) {
+        sendStatusReport(event.getChannel());
     }
 
     @EventSubscriber

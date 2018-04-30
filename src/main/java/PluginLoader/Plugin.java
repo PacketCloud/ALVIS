@@ -5,6 +5,7 @@ import Managers.ClientManager;
 import Event.*;
 
 import sx.blah.discord.api.IDiscordClient;
+import sx.blah.discord.api.events.EventDispatcher;
 
 public abstract class Plugin {
 
@@ -15,8 +16,6 @@ public abstract class Plugin {
     public Plugin(ClientManager clientManager) {
         this.ClientManager = clientManager;
         this.Client = clientManager.getDiscordClient();
-
-        Client.getDispatcher().registerListener(this);
 
         onCreate();
     }
@@ -115,40 +114,27 @@ public abstract class Plugin {
         return onCustomEvent(event);
     }
 
-    /**
-     * Broadcasts a custom event to all plugins in the PluginList.
-     * @param event - the CustomEvent to broadcast.
-     * @return true if a plugin handled the request, false otherwise.
-     */
-    public final boolean broadcastCustomEvent(CustomEvent event) {
-        return getPluginList().broadcastCustomEvent(event, this);
-    }
-
-    /**
-     * Transmits a custom event to the target plugin.
-     * @param eventPackage - the EventPackage to transmit.
-     * @return true if the request was handled, false otherwise.
-     */
-    public final boolean transmitCustomEvent(EventPackage eventPackage) {
-        return getPluginList().transmitCustomEvent(eventPackage);
-    }
-
-    /**
-     * Transmitts a custom event to the target plugin.
-     * @param event - the CustomEvent to transmit.
-     * @param targetPlugin - the Plugin to send it to, if it exists.
-     * @param senderPlugin - the Plugin sending the event.
-     * @return true if the request was handled, false otherwise.
-     */
-    public final boolean transmitCustomEvent(CustomEvent event, Plugin targetPlugin, Plugin senderPlugin) {
-        return getPluginList().transmitCustomEvent(event, targetPlugin, senderPlugin);
-    }
-
     public final String getName() {
         if (PluginProperties != null) {
             return PluginProperties.getPluginName();
         }
         return "";
+    }
+
+    public void dispatchCustomEvent(CustomEvent event) {
+        getDispatcher().dispatch(event);
+    }
+
+    public final void registerListener() {
+        getDispatcher().registerListener(this);
+    }
+
+    public final void unregisterListener() {
+        getDispatcher().unregisterListener(this);
+    }
+
+    public final EventDispatcher getDispatcher() {
+        return Client.getDispatcher();
     }
 
     public final String getClassIdentifier() {

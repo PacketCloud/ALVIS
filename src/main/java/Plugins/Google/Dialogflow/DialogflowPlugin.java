@@ -3,6 +3,7 @@ package Plugins.Google.Dialogflow;
 import Managers.ClientManager;
 import PluginLoader.Plugin;
 
+import Plugins.Core.StatusRequestEvent;
 import Util.Logger;
 import com.google.api.client.auth.oauth2.BearerToken;
 import com.google.api.gax.core.CredentialsProvider;

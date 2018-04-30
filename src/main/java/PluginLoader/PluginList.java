@@ -19,6 +19,7 @@ public class PluginList {
             return false;
         }
         this.PList.add(plugin);
+        plugin.registerListener();
         plugin.onLoad();
         Logger.logContext(PluginLoader.class, "Plugin '" + plugin.getIdentifier() + "' loaded.");
         return true;
@@ -32,43 +33,11 @@ public class PluginList {
             }
         }
         if (isRemoved){
+            plugin.unregisterListener();
             plugin.onUnload();
             Logger.logContext(PluginLoader.class, "Plugin '" + plugin.getIdentifier() + "' un-loaded.");
         }
         return isRemoved;
-    }
-
-    public boolean broadcastCustomEvent(CustomEvent event, Plugin senderPlugin) {
-        boolean isHandled = false;
-        for (Plugin p : PList){
-            if (p.equals(senderPlugin)) continue;
-            if (p.onCustomEvent(event)) isHandled = true;
-        }
-        return isHandled;
-    }
-
-    public boolean transmitCustomEvent(CustomEvent event, Plugin targetPlugin, Plugin senderPlugin) {
-        if (event == null || targetPlugin == null) return false;
-
-        for (Plugin p : PList){
-            if (targetPlugin.equals(p)){
-                return p.internalHandleEvent(event);
-            }
-        }
-        return false;
-    }
-
-    public boolean transmitCustomEvent(EventPackage eventPackage) {
-        if (!eventPackage.isHandleable()) return false;
-
-        Plugin targetPlugin = eventPackage.getDestinationPlugin();
-
-        for (Plugin p : PList){
-            if (targetPlugin.equals(p)){
-                return p.internalHandleEvent(eventPackage.getEvent());
-            }
-        }
-        return false;
     }
 
     public ArrayList<Plugin> getPlugins() {
