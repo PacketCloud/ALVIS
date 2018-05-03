@@ -1,7 +1,7 @@
-package PluginLoader;
+package Cumulus.Plugins;
 
-import Managers.ClientManager;
-import Util.Logger;
+import Cumulus.Managers.ClientManager;
+import Cumulus.Util.Logger;
 import org.apache.commons.io.FilenameUtils;
 import org.json.simple.JSONObject;
 import org.json.simple.parser.JSONParser;

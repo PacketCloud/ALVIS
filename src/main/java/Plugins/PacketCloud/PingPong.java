@@ -1,12 +1,12 @@
 package Plugins.PacketCloud;
 
-import PluginLoader.Plugin;
+import Cumulus.Plugins.Plugin;
 import sx.blah.discord.api.events.EventSubscriber;
 import sx.blah.discord.handle.impl.events.guild.channel.message.MessageReceivedEvent;
 
 public class PingPong extends Plugin {
 
-    public PingPong(Managers.ClientManager clientManager){
+    public PingPong(Cumulus.Managers.ClientManager clientManager){
         super(clientManager);
     }
 

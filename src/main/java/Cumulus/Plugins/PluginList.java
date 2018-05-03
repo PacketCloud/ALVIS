@@ -1,7 +1,6 @@
-package PluginLoader;
+package Cumulus.Plugins;
 
-import Event.*;
-import Util.Logger;
+import Cumulus.Util.Logger;
 
 import java.util.ArrayList;
 

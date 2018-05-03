@@ -1,7 +1,7 @@
 package Plugins.Core;
 
-import Event.CustomEvent;
-import PluginLoader.Plugin;
+import Cumulus.Bootstrap.Event.CustomEvent;
+import Cumulus.Plugins.Plugin;
 import sx.blah.discord.handle.obj.IChannel;
 
 public class StatusRequestEvent extends CustomEvent {

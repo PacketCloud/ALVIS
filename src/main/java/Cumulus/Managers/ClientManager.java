@@ -1,11 +1,11 @@
-package Managers;
+package Cumulus.Managers;
 
-import Bootstrap.Bootstrapper;
-import PluginLoader.Plugin;
-import PluginLoader.PluginList;
-import Util.Configuration.ConfigWrapper;
-import Util.Configuration.Configuration;
-import Util.Logger;
+import Cumulus.Bootstrap.Bootstrapper;
+import Cumulus.Plugins.Plugin;
+import Cumulus.Plugins.PluginList;
+import Cumulus.Util.Configuration.ConfigWrapper;
+import Cumulus.Util.Configuration.Configuration;
+import Cumulus.Util.Logger;
 import sx.blah.discord.api.ClientBuilder;
 import sx.blah.discord.api.IDiscordClient;
 import sx.blah.discord.util.DiscordException;

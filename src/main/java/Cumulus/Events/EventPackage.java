@@ -1,6 +1,6 @@
-package Event;
+package Cumulus.Bootstrap.Event;
 
-import PluginLoader.Plugin;
+import Cumulus.Plugins.Plugin;
 
 public class EventPackage {
 

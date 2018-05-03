@@ -1,8 +1,8 @@
-package PluginLoader;
+package Cumulus.Plugins;
 
-import Managers.ClientManager;
+import Cumulus.Managers.ClientManager;
 
-import Event.*;
+import Cumulus.Bootstrap.Event.*;
 
 import sx.blah.discord.api.IDiscordClient;
 import sx.blah.discord.api.events.EventDispatcher;

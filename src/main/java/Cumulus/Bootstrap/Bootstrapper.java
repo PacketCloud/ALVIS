@@ -1,7 +1,7 @@
-package Bootstrap;
+package Cumulus.Bootstrap;
 
-import Managers.ClientManager;
-import Util.Logger;
+import Cumulus.Managers.ClientManager;
+import Cumulus.Util.Logger;
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;

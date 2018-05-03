@@ -11,13 +11,26 @@
   <component name="ChangeListManager">
     <list default="true" id="e91eb998-cb3f-409b-b7f4-961ba92ce48e" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugins/BotStatus/BotStatus.jar" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/BotStatus/BotStatus.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugins/DialogflowPlugin/DialogflowPlugin.jar" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/DialogflowPlugin/DialogflowPlugin.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugins/PingPong/PingPong.jar" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/PingPong/PingPong.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/PluginLoader/Plugin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/PluginLoader/Plugin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/PluginLoader/PluginList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/PluginLoader/PluginList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Bootstrap/Bootstrapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Cumulus/Bootstrap/Bootstrapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Cumulus/Bootstrap/Event/CustomEvent.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Cumulus/Bootstrap/Event/EventPackage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Managers/ClientManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Cumulus/Managers/ClientManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Managers/PluginManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Cumulus/Managers/PluginManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/PluginLoader/Plugin.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/PluginLoader/Plugin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Cumulus/Plugins/Plugin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/PluginLoader/PluginList.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/PluginLoader/PluginList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Cumulus/Plugins/PluginList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/PluginLoader/PluginLoader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/PluginLoader/PluginLoader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Cumulus/Plugins/PluginLoader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/PluginLoader/PluginProperties.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/PluginLoader/PluginProperties.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Cumulus/Plugins/PluginProperties.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Plugins/Core/BotStatus.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Plugins/Core/BotStatus.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Plugins/Core/StatusRequestEvent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Plugins/Core/StatusRequestEvent.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Plugins/Google/Dialogflow/DialogflowPlugin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Plugins/Google/Dialogflow/DialogflowPlugin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Plugins/PacketCloud/PingPong.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Plugins/PacketCloud/PingPong.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Util/Configuration/ConfigWrapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Cumulus/Util/Configuration/ConfigWrapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Util/Configuration/Configuration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Cumulus/Util/Configuration/Configuration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Util/Logger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Cumulus/Util/Logger.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
@@ -39,7 +52,7 @@
       <file leaf-file-name="PingPong.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Plugins/PacketCloud/PingPong.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
+            <state relative-caret-position="68">
               <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -51,8 +64,8 @@
       <file leaf-file-name="DialogflowPlugin.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Plugins/Google/Dialogflow/DialogflowPlugin.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="628">
-              <caret line="55" column="32" selection-start-line="55" selection-start-column="32" selection-end-line="55" selection-end-column="32" />
+            <state relative-caret-position="425">
+              <caret line="41" column="32" selection-start-line="41" selection-start-column="32" selection-end-line="41" selection-end-column="32" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -61,33 +74,23 @@
         </entry>
       </file>
       <file leaf-file-name="Plugin.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/PluginLoader/Plugin.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Cumulus/Plugins/Plugin.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="237">
+            <state relative-caret-position="1802">
               <caret line="124" column="40" selection-start-line="124" selection-start-column="40" selection-end-line="124" selection-end-column="40" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1843#1844#0" expanded="true" />
-                <element signature="e#1899#1900#0" expanded="true" />
-                <element signature="e#2933#2934#0" expanded="true" />
-                <element signature="e#2963#2964#0" expanded="true" />
-                <element signature="e#2868#2869#0" expanded="true" />
                 <element signature="e#2929#2930#0" expanded="true" />
-                <element signature="e#2979#2980#0" expanded="true" />
-                <element signature="e#3016#3017#0" expanded="true" />
-                <element signature="e#3149#3150#0" expanded="true" />
-                <element signature="e#3193#3194#0" expanded="true" />
-                <element signature="e#3189#3190#0" expanded="true" />
-                <element signature="e#3246#3247#0" expanded="true" />
+                <element signature="e#2976#2977#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="ClientManager.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Managers/ClientManager.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Cumulus/Managers/ClientManager.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
+            <state relative-caret-position="510">
               <caret line="30" selection-start-line="30" selection-end-line="30" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -97,9 +100,9 @@
         </entry>
       </file>
       <file leaf-file-name="PluginManager.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Managers/PluginManager.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Cumulus/Managers/PluginManager.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
+            <state relative-caret-position="340">
               <caret line="36" column="5" selection-start-line="36" selection-start-column="5" selection-end-line="36" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -109,10 +112,10 @@
         </entry>
       </file>
       <file leaf-file-name="PluginList.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/PluginLoader/PluginList.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Cumulus/Plugins/PluginList.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="510">
-              <caret line="35" column="40" selection-start-line="35" selection-start-column="40" selection-end-line="35" selection-end-column="40" />
+              <caret line="34" column="40" selection-start-line="34" selection-start-column="40" selection-end-line="34" selection-end-column="40" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -123,12 +126,10 @@
       <file leaf-file-name="BotStatus.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Plugins/Core/BotStatus.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="16" column="5" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
+            <state relative-caret-position="102">
+              <caret line="15" column="5" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#988#989#0" expanded="true" />
-                <element signature="e#1021#1022#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -404,12 +405,13 @@
         <option value="$PROJECT_DIR$/src/main/java/Plugins/Google/DialogFlow/DialogFlowPlugin.java" />
         <option value="$PROJECT_DIR$/src/main/java/Plugins/Google/Dialogflow/DialogFlowPlugin.java" />
         <option value="$PROJECT_DIR$/build.gradle" />
-        <option value="$PROJECT_DIR$/src/main/java/Managers/ClientManager.java" />
         <option value="$PROJECT_DIR$/src/main/java/Managers/PluginManager.java" />
         <option value="$PROJECT_DIR$/src/main/java/Plugins/Core/BotStatus.java" />
         <option value="$PROJECT_DIR$/src/main/java/Plugins/Google/Dialogflow/DialogflowPlugin.java" />
         <option value="$PROJECT_DIR$/src/main/java/PluginLoader/Plugin.java" />
         <option value="$PROJECT_DIR$/src/main/java/PluginLoader/PluginList.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Managers/ClientManager.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Cumulus/Managers/ClientManager.java" />
       </list>
     </option>
   </component>
@@ -427,6 +429,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -458,6 +462,15 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="Cumulus" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ALVIS" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ALVIS" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="Cumulus" type="462c0819:PsiDirectoryNode" />
               <item name="Bootstrap" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -466,7 +479,8 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="Event" type="462c0819:PsiDirectoryNode" />
+              <item name="Cumulus" type="462c0819:PsiDirectoryNode" />
+              <item name="Events" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ALVIS" type="b2602c69:ProjectViewProjectNode" />
@@ -474,6 +488,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="Cumulus" type="462c0819:PsiDirectoryNode" />
               <item name="Managers" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -482,7 +497,17 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="PluginLoader" type="462c0819:PsiDirectoryNode" />
+              <item name="Cumulus" type="462c0819:PsiDirectoryNode" />
+              <item name="Plugins" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ALVIS" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ALVIS" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="Cumulus" type="462c0819:PsiDirectoryNode" />
+              <item name="Util" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ALVIS" type="b2602c69:ProjectViewProjectNode" />
@@ -519,30 +544,11 @@
               <item name="Plugins" type="462c0819:PsiDirectoryNode" />
               <item name="PacketCloud" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="ALVIS" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ALVIS" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="Util" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ALVIS" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ALVIS" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="Util" type="462c0819:PsiDirectoryNode" />
-              <item name="Configuration" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
       <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -574,7 +580,7 @@
   </component>
   <component name="RunManager" selected="Application.Bootstrapper">
     <configuration name="Bootstrapper" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Bootstrap.Bootstrapper" />
+      <option name="MAIN_CLASS_NAME" value="Cumulus.Bootstrap.Bootstrapper" />
       <module name="ALVIS_main" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -659,34 +665,33 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="2576" height="1426" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32919255" />
-      <window_info anchor="bottom" id="Messages" order="12" weight="0.32841614" />
       <window_info anchor="right" id="sbt" order="9" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info id="Image Layers" order="6" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50039065" side_tool="true" weight="0.32919255" />
       <window_info anchor="right" id="Maven Projects" order="5" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32919255" />
       <window_info anchor="bottom" id="Version Control" order="10" weight="0.32919255" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32919255" />
       <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.49960938" weight="0.33540374" />
       <window_info id="Capture Tool" order="5" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.13235295" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13394277" />
       <window_info anchor="bottom" id="sbt-shell-toolwindow" order="8" weight="0.32919255" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32919255" />
       <window_info anchor="right" id="Gradle" order="6" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="3" />
       <window_info anchor="right" id="Theme Preview" order="8" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info id="Favorites" order="4" side_tool="true" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.32841614" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32919255" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Build" order="11" weight="0.3291634" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -750,21 +755,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Bootstrap/Bootstrapper.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Cumulus/Bootstrap/Bootstrapper.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
           <caret line="20" column="39" selection-start-line="20" selection-start-column="39" selection-end-line="20" selection-end-column="39" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Util/Configuration/ConfigWrapper.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Cumulus/Util/Configuration/ConfigWrapper.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="493">
           <caret line="41" selection-start-line="41" selection-end-line="41" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/PluginLoader/PluginLoader.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Cumulus/Plugins/PluginLoader.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1020">
           <caret line="75" column="33" selection-start-line="75" selection-start-column="33" selection-end-line="75" selection-end-column="33" />
@@ -786,14 +791,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Util/Configuration/Configuration.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Cumulus/Util/Configuration/Configuration.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
           <caret line="18" selection-start-line="18" selection-end-line="18" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Managers/ClientManager.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Cumulus/Managers/ClientManager.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="952">
           <caret line="68" column="15" selection-start-line="68" selection-start-column="15" selection-end-line="68" selection-end-column="15" />
@@ -803,7 +808,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Managers/PluginManager.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Cumulus/Managers/PluginManager.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
           <caret line="26" column="15" selection-start-line="26" selection-start-column="15" selection-end-line="26" selection-end-column="15" />
@@ -813,7 +818,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/PluginLoader/PluginList.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Cumulus/Plugins/PluginList.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
           <caret line="22" column="91" selection-start-line="22" selection-start-column="91" selection-end-line="22" selection-end-column="91" />
@@ -823,24 +828,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/PluginLoader/Plugin.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Cumulus/Plugins/Plugin.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2567">
           <caret line="179" column="24" selection-start-line="179" selection-start-column="24" selection-end-line="179" selection-end-column="24" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1843#1844#0" expanded="true" />
-            <element signature="e#1899#1900#0" expanded="true" />
-            <element signature="e#2933#2934#0" expanded="true" />
-            <element signature="e#2963#2964#0" expanded="true" />
-            <element signature="e#2868#2869#0" expanded="true" />
             <element signature="e#2929#2930#0" expanded="true" />
-            <element signature="e#2979#2980#0" expanded="true" />
-            <element signature="e#3016#3017#0" expanded="true" />
-            <element signature="e#3149#3150#0" expanded="true" />
-            <element signature="e#3193#3194#0" expanded="true" />
-            <element signature="e#3189#3190#0" expanded="true" />
-            <element signature="e#3246#3247#0" expanded="true" />
+            <element signature="e#2976#2977#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -851,99 +846,88 @@
           <caret line="17" column="1" lean-forward="true" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#988#989#0" expanded="true" />
-            <element signature="e#1021#1022#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Bootstrap/Bootstrapper.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Cumulus/Bootstrap/Bootstrapper.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="646">
           <caret line="38" column="147" selection-start-line="38" selection-start-column="147" selection-end-line="38" selection-end-column="147" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Util/Configuration/ConfigWrapper.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Cumulus/Util/Configuration/ConfigWrapper.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="18" column="19" selection-start-line="18" selection-start-column="19" selection-end-line="18" selection-end-column="19" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Util/Configuration/Configuration.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Cumulus/Util/Configuration/Configuration.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
           <caret line="18" selection-start-line="18" selection-end-line="18" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Util/Logger.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Cumulus/Util/Logger.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="510">
           <caret line="33" column="79" selection-start-line="33" selection-start-column="79" selection-end-line="33" selection-end-column="79" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Bootstrap/Bootstrapper.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Cumulus/Bootstrap/Bootstrapper.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="561">
           <caret line="38" column="147" selection-start-line="38" selection-start-column="147" selection-end-line="38" selection-end-column="147" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Util/Configuration/Configuration.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Cumulus/Util/Configuration/Configuration.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
           <caret line="18" selection-start-line="18" selection-end-line="18" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Util/Logger.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Cumulus/Util/Logger.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="510">
           <caret line="33" column="79" selection-start-line="33" selection-start-column="79" selection-end-line="33" selection-end-column="79" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Util/Configuration/ConfigWrapper.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Cumulus/Util/Configuration/ConfigWrapper.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="18" column="19" selection-start-line="18" selection-start-column="19" selection-end-line="18" selection-end-column="19" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Bootstrap/Bootstrapper.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Cumulus/Bootstrap/Bootstrapper.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Util/Configuration/Configuration.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Cumulus/Util/Configuration/Configuration.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
           <caret line="18" selection-start-line="18" selection-end-line="18" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Util/Logger.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Cumulus/Util/Logger.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="510">
           <caret line="33" column="79" selection-start-line="33" selection-start-column="79" selection-end-line="33" selection-end-column="79" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Util/Configuration/ConfigWrapper.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Cumulus/Util/Configuration/ConfigWrapper.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="952">
           <caret line="68" column="49" selection-start-line="68" selection-start-column="49" selection-end-line="68" selection-end-column="49" />
@@ -951,41 +935,28 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Bot.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/Bootstrap/Bootstrapper.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Cumulus/Bootstrap/Bootstrapper.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="4" column="8" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Util/Logger.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Cumulus/Util/Logger.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="510">
           <caret line="33" column="79" selection-start-line="33" selection-start-column="79" selection-end-line="33" selection-end-column="79" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Event/EventPackage.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Cumulus/Bootstrap/Event/EventPackage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
           <caret line="14" column="5" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
-          <folding>
-            <element signature="e#438#439#0" expanded="true" />
-            <element signature="e#466#467#0" expanded="true" />
-            <element signature="e#519#520#0" expanded="true" />
-            <element signature="e#545#546#0" expanded="true" />
-            <element signature="e#607#608#0" expanded="true" />
-            <element signature="e#626#627#0" expanded="true" />
-            <element signature="e#689#690#0" expanded="true" />
-            <element signature="e#750#751#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Util/Configuration/Configuration.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Cumulus/Util/Configuration/Configuration.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
           <caret line="18" selection-start-line="18" selection-end-line="18" />
@@ -993,39 +964,31 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Plugins/TestPlugin.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/Util/Configuration/ConfigWrapper.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Cumulus/Util/Configuration/ConfigWrapper.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="493">
           <caret line="41" selection-start-line="41" selection-end-line="41" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/PluginLoader/PluginProperties.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Cumulus/Plugins/PluginProperties.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1989">
           <caret line="117" column="52" selection-start-line="117" selection-start-column="52" selection-end-line="117" selection-end-column="52" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Bootstrap/Bootstrapper.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Cumulus/Bootstrap/Bootstrapper.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
           <caret line="20" column="39" selection-start-line="20" selection-start-column="39" selection-end-line="20" selection-end-column="39" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Event/CustomEvent.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Cumulus/Bootstrap/Event/CustomEvent.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="425">
           <caret line="27" column="17" selection-start-line="27" selection-start-column="17" selection-end-line="27" selection-end-column="17" />
-          <folding>
-            <element signature="e#581#582#0" expanded="true" />
-            <element signature="e#607#608#0" expanded="true" />
-            <element signature="e#553#554#0" expanded="true" />
-            <element signature="e#588#589#0" expanded="true" />
-            <element signature="e#591#592#0" expanded="true" />
-            <element signature="e#645#646#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1034,11 +997,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="4" column="43" selection-start-line="4" selection-start-column="43" selection-end-line="4" selection-end-column="43" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#392#393#0" expanded="true" />
-            <element signature="e#422#423#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1071,7 +1029,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/PluginLoader/PluginLoader.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Cumulus/Plugins/PluginLoader.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="263">
           <caret line="18" column="57" selection-start-line="18" selection-start-column="51" selection-end-line="18" selection-end-column="57" />
@@ -1085,7 +1043,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Plugins/PacketCloud/PingPong.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
+        <state relative-caret-position="68">
           <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -1095,32 +1053,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Plugins/Google/Dialogflow/DialogflowPlugin.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="628">
-          <caret line="55" column="32" selection-start-line="55" selection-start-column="32" selection-end-line="55" selection-end-column="32" />
+        <state relative-caret-position="425">
+          <caret line="41" column="32" selection-start-line="41" selection-start-column="32" selection-end-line="41" selection-end-column="32" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/PluginLoader/Plugin.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Cumulus/Plugins/Plugin.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="237">
+        <state relative-caret-position="1802">
           <caret line="124" column="40" selection-start-line="124" selection-start-column="40" selection-end-line="124" selection-end-column="40" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1843#1844#0" expanded="true" />
-            <element signature="e#1899#1900#0" expanded="true" />
-            <element signature="e#2933#2934#0" expanded="true" />
-            <element signature="e#2963#2964#0" expanded="true" />
-            <element signature="e#2868#2869#0" expanded="true" />
             <element signature="e#2929#2930#0" expanded="true" />
-            <element signature="e#2979#2980#0" expanded="true" />
-            <element signature="e#3016#3017#0" expanded="true" />
-            <element signature="e#3149#3150#0" expanded="true" />
-            <element signature="e#3193#3194#0" expanded="true" />
-            <element signature="e#3189#3190#0" expanded="true" />
-            <element signature="e#3246#3247#0" expanded="true" />
+            <element signature="e#2976#2977#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1134,29 +1082,27 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Plugins/Core/BotStatus.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="16" column="5" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
+        <state relative-caret-position="102">
+          <caret line="15" column="5" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#988#989#0" expanded="true" />
-            <element signature="e#1021#1022#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/PluginLoader/PluginList.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Cumulus/Plugins/PluginList.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="510">
-          <caret line="35" column="40" selection-start-line="35" selection-start-column="40" selection-end-line="35" selection-end-column="40" />
+          <caret line="34" column="40" selection-start-line="34" selection-start-column="40" selection-end-line="34" selection-end-column="40" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Managers/PluginManager.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Cumulus/Managers/PluginManager.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
+        <state relative-caret-position="340">
           <caret line="36" column="5" selection-start-line="36" selection-start-column="5" selection-end-line="36" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -1164,9 +1110,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Managers/ClientManager.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Cumulus/Managers/ClientManager.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
+        <state relative-caret-position="510">
           <caret line="30" selection-start-line="30" selection-end-line="30" />
           <folding>
             <element signature="imports" expanded="true" />

@@ -1,8 +1,8 @@
-package Managers;
+package Cumulus.Managers;
 
-import PluginLoader.Plugin;
-import PluginLoader.PluginList;
-import PluginLoader.PluginLoader;
+import Cumulus.Plugins.Plugin;
+import Cumulus.Plugins.PluginList;
+import Cumulus.Plugins.PluginLoader;
 
 public class PluginManager {
 

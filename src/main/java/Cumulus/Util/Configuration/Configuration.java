@@ -1,4 +1,4 @@
-package Util.Configuration;
+package Cumulus.Util.Configuration;
 
 public class Configuration {
     private String BotToken;

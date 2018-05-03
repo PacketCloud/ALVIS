@@ -1,34 +1,20 @@
 package Plugins.Google.Dialogflow;
 
-import Managers.ClientManager;
-import PluginLoader.Plugin;
+import Cumulus.Managers.ClientManager;
+import Cumulus.Plugins.Plugin;
 
-import Plugins.Core.StatusRequestEvent;
-import Util.Logger;
-import com.google.api.client.auth.oauth2.BearerToken;
+import Cumulus.Util.Logger;
 import com.google.api.gax.core.CredentialsProvider;
 import com.google.api.gax.core.FixedCredentialsProvider;
-import com.google.auth.Credentials;
-import com.google.auth.oauth2.AccessToken;
-import com.google.auth.oauth2.GoogleCredentials;
-import com.google.auth.oauth2.OAuth2Credentials;
 import com.google.auth.oauth2.ServiceAccountCredentials;
 import com.google.cloud.dialogflow.v2.*;
 import com.google.cloud.dialogflow.v2.TextInput.Builder;
-import com.google.common.collect.Lists;
 import sx.blah.discord.api.events.EventSubscriber;
-import sx.blah.discord.handle.impl.events.guild.channel.message.MentionEvent;
 import sx.blah.discord.handle.impl.events.guild.channel.message.MessageReceivedEvent;
-import sx.blah.discord.handle.impl.obj.Channel;
-import sx.blah.discord.handle.impl.obj.Message;
-import sx.blah.discord.handle.impl.obj.PrivateChannel;
-import sx.blah.discord.handle.obj.IChannel;
 import sx.blah.discord.handle.obj.IMessage;
 import sx.blah.discord.handle.obj.IUser;
 
 import java.io.FileInputStream;
-import java.util.ArrayList;
-import java.util.List;
 
 public class DialogflowPlugin extends Plugin {
 

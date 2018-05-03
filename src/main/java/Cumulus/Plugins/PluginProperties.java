@@ -1,4 +1,4 @@
-package PluginLoader;
+package Cumulus.Plugins;
 
 import org.json.simple.JSONObject;
 

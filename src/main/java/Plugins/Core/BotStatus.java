@@ -1,9 +1,8 @@
 package Plugins.Core;
 
-import Event.CustomEvent;
-import Managers.ClientManager;
-import PluginLoader.Plugin;
-import Util.Logger;
+import Cumulus.Managers.ClientManager;
+import Cumulus.Plugins.Plugin;
+import Cumulus.Util.Logger;
 import sx.blah.discord.api.events.EventSubscriber;
 import sx.blah.discord.handle.impl.events.ReadyEvent;
 import sx.blah.discord.handle.impl.events.guild.channel.message.MessageReceivedEvent;

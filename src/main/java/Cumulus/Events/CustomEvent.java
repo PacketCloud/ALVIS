@@ -1,6 +1,6 @@
-package Event;
+package Cumulus.Bootstrap.Event;
 
-import PluginLoader.Plugin;
+import Cumulus.Plugins.Plugin;
 
 public class CustomEvent extends sx.blah.discord.api.events.Event {
 
