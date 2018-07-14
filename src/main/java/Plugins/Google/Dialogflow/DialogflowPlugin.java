@@ -3,7 +3,7 @@ package Plugins.Google.Dialogflow;
 import Cumulus.Managers.ClientManager;
 import Cumulus.Plugins.Plugin;
 
-import Cumulus.Util.Logger;
+import Cumulus.Util.Logging.Logger;
 import com.google.api.gax.core.CredentialsProvider;
 import com.google.api.gax.core.FixedCredentialsProvider;
 import com.google.auth.oauth2.ServiceAccountCredentials;
@@ -88,7 +88,7 @@ public class DialogflowPlugin extends Plugin {
     }
 
     private void ResultHandler(QueryResult result, IMessage message) {
-
+        //TODO: Handle result and provide response to user
     }
 
 }

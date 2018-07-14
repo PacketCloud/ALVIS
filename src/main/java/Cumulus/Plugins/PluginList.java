@@ -1,6 +1,6 @@
 package Cumulus.Plugins;
 
-import Cumulus.Util.Logger;
+import Cumulus.Util.Logging.Logger;
 
 import java.util.ArrayList;
 

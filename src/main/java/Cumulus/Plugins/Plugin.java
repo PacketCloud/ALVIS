@@ -2,10 +2,21 @@ package Cumulus.Plugins;
 
 import Cumulus.Managers.ClientManager;
 
-import Cumulus.Bootstrap.Event.*;
+import Cumulus.Events.*;
 
+import Cumulus.Util.Commands.CommandList;
+import Cumulus.Util.Logging.Logger;
+import com.google.gson.Gson;
+import org.apache.commons.io.FilenameUtils;
+import org.json.simple.JSONObject;
+import org.json.simple.parser.JSONParser;
+import org.json.simple.parser.ParseException;
 import sx.blah.discord.api.IDiscordClient;
 import sx.blah.discord.api.events.EventDispatcher;
+
+import java.io.File;
+import java.net.URL;
+import java.net.URLClassLoader;
 
 public abstract class Plugin {
 
@@ -13,9 +24,17 @@ public abstract class Plugin {
     private IDiscordClient Client;
     private PluginProperties PluginProperties;
 
+    private CommandList CommandList;
+    private boolean HasCommands;
+
+    private static final String PLUGIN_COMMAND_FILE = "commands.json";
+    private static final String JAR_EXTENSION = "jar";
+
     public Plugin(ClientManager clientManager) {
         this.ClientManager = clientManager;
         this.Client = clientManager.getDiscordClient();
+
+        this.HasCommands = registerCommands();
 
         onCreate();
     }
@@ -91,27 +110,12 @@ public abstract class Plugin {
     }
 
     /**
-     * Code that executes when a custom event is received, allowing plugins to interact.
-     * @param event - the CustomEvent object that will be handled.
-     * @return true if the event was handled, false otherwise.
-     */
-    public boolean onCustomEvent(CustomEvent event) {
-        return false;
-    }
-
-    /**
      * Code that executes when there is input from the console.
      * @param RawConsoleInput - the String representation of what was entered in the console.
      * @return true if the plugin acted on the console input, false otherwise.
      */
     public boolean onConsoleInput(String RawConsoleInput) {
         return false;
-    }
-
-    public final boolean internalHandleEvent(CustomEvent event) {
-        if (event == null) return false;
-
-        return onCustomEvent(event);
     }
 
     public final String getName() {
@@ -174,6 +178,20 @@ public abstract class Plugin {
         return this.PluginProperties.getPluginIdentifier();
     }
 
+    private final boolean registerCommands() {
+        CommandList commandList = CommandList.loadCommandsInDirectory(new File(getPluginProperties().getPLUGIN_ROOT_DIRECTORY()), this);
+        if (commandList.size() > 0){
+            getClientManager().registerCommands(commandList);
+            return true;
+        }else{
+            return false;
+        }
+    }
+
+    public final boolean hasCommands() {
+        return HasCommands;
+    }
+
     @Override
     public final boolean equals(Object o) {
         if (this.getClass().getTypeName().equals(o.getClass().getTypeName())){
@@ -189,5 +207,4 @@ public abstract class Plugin {
 
     //Allows compilation of plugin
     public final static void main(String[] args){}
-
 }

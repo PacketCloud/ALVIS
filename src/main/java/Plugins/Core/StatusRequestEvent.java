@@ -1,6 +1,6 @@
 package Plugins.Core;
 
-import Cumulus.Bootstrap.Event.CustomEvent;
+import Cumulus.Events.CustomEvent;
 import Cumulus.Plugins.Plugin;
 import sx.blah.discord.handle.obj.IChannel;
 

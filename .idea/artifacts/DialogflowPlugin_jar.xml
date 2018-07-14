@@ -72,6 +72,7 @@
       <element id="extracted-dir" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.eclipse.jetty/jetty-http/9.4.8.v20171121/9879d6c4e37400bf43f0cd4b3c6e34a3ba409864/jetty-http-9.4.8.v20171121.jar" path-in-jar="/" />
       <element id="extracted-dir" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpcore/4.4.8/70539e2a07865bab38b4153da1ce599cf081790a/httpcore-4.4.8.jar" path-in-jar="/" />
       <element id="extracted-dir" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-annotations/2.9.0/7c10d545325e3a6e72e06381afe469fd40eb701/jackson-annotations-2.9.0.jar" path-in-jar="/" />
+      <element id="artifact" artifact-name="FilePlaybackTest:jar" />
     </root>
   </artifact>
 </component>

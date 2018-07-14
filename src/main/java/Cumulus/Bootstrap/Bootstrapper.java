@@ -1,7 +1,7 @@
 package Cumulus.Bootstrap;
 
 import Cumulus.Managers.ClientManager;
-import Cumulus.Util.Logger;
+import Cumulus.Util.Logging.Logger;
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;

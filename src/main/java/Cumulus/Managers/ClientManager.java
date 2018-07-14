@@ -3,9 +3,11 @@ package Cumulus.Managers;
 import Cumulus.Bootstrap.Bootstrapper;
 import Cumulus.Plugins.Plugin;
 import Cumulus.Plugins.PluginList;
+import Cumulus.Util.Commands.Command;
+import Cumulus.Util.Commands.CommandList;
 import Cumulus.Util.Configuration.ConfigWrapper;
 import Cumulus.Util.Configuration.Configuration;
-import Cumulus.Util.Logger;
+import Cumulus.Util.Logging.Logger;
 import sx.blah.discord.api.ClientBuilder;
 import sx.blah.discord.api.IDiscordClient;
 import sx.blah.discord.util.DiscordException;
@@ -17,11 +19,13 @@ public class ClientManager {
     private Configuration Config;
     private IDiscordClient Client;
     private PluginManager PManager;
+    private CommandManager CManager;
+    private GuildManager GManager;
 
     public ClientManager() {
         loadConfig();
         if (Config.hasError()){
-            Logger.logContext(this.getClass(), "There was an issue when loading up the configuration. Please check Config and then try again.");
+            Logger.logContext(this.getClass(), "There was an issue when loading the configuration. Please check Config and then try again.");
             return;
         }
         buildClient();
@@ -50,6 +54,10 @@ public class ClientManager {
     private void loadPlugins() {
         Logger.logContext(this.getClass(), "Loading plugins...");
         PManager = new PluginManager(this);
+    }
+
+    public boolean registerCommands(CommandList commandList) {
+        return CManager.registerCommands(commandList);
     }
 
     private void login() {

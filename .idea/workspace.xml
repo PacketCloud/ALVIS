@@ -2,36 +2,11 @@
 <project version="4">
   <component name="ArtifactsWorkspaceSettings">
     <artifacts-to-build>
-      <artifact name="ALVIS:jar" />
-      <artifact name="BotStatus:jar" />
-      <artifact name="DialogflowPlugin:jar" />
-      <artifact name="PingPong:jar" />
+      <artifact name="FilePlaybackTest:jar" />
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e91eb998-cb3f-409b-b7f4-961ba92ce48e" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Bootstrap/Bootstrapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Cumulus/Bootstrap/Bootstrapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Cumulus/Bootstrap/Event/CustomEvent.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Cumulus/Bootstrap/Event/EventPackage.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Managers/ClientManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Cumulus/Managers/ClientManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Managers/PluginManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Cumulus/Managers/PluginManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/PluginLoader/Plugin.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/PluginLoader/Plugin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Cumulus/Plugins/Plugin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/PluginLoader/PluginList.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/PluginLoader/PluginList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Cumulus/Plugins/PluginList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/PluginLoader/PluginLoader.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/PluginLoader/PluginLoader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Cumulus/Plugins/PluginLoader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/PluginLoader/PluginProperties.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/PluginLoader/PluginProperties.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Cumulus/Plugins/PluginProperties.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Plugins/Core/BotStatus.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Plugins/Core/BotStatus.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Plugins/Core/StatusRequestEvent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Plugins/Core/StatusRequestEvent.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Plugins/Google/Dialogflow/DialogflowPlugin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Plugins/Google/Dialogflow/DialogflowPlugin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Plugins/PacketCloud/PingPong.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Plugins/PacketCloud/PingPong.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Util/Configuration/ConfigWrapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Cumulus/Util/Configuration/ConfigWrapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Util/Configuration/Configuration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Cumulus/Util/Configuration/Configuration.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Util/Logger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Cumulus/Util/Logger.java" afterDir="false" />
-    </list>
+    <list default="true" id="e91eb998-cb3f-409b-b7f4-961ba92ce48e" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
     <ignored path="$PROJECT_DIR$/out/" />
@@ -49,26 +24,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="PingPong.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Plugins/PacketCloud/PingPong.java">
+      <file leaf-file-name="GuildSettings.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Cumulus/Util/Configuration/GuildSettings.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DialogflowPlugin.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Plugins/Google/Dialogflow/DialogflowPlugin.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="41" column="32" selection-start-line="41" selection-start-column="32" selection-end-line="41" selection-end-column="32" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="85">
+              <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -76,22 +36,8 @@
       <file leaf-file-name="Plugin.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Cumulus/Plugins/Plugin.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1802">
-              <caret line="124" column="40" selection-start-line="124" selection-start-column="40" selection-end-line="124" selection-end-column="40" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#2929#2930#0" expanded="true" />
-                <element signature="e#2976#2977#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ClientManager.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Cumulus/Managers/ClientManager.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="510">
-              <caret line="30" selection-start-line="30" selection-end-line="30" />
+            <state relative-caret-position="969">
+              <caret line="73" selection-start-line="73" selection-end-line="73" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -99,11 +45,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PluginManager.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Cumulus/Managers/PluginManager.java">
+      <file leaf-file-name="GuildAudioPlayer.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Cumulus/Util/Audio/GuildAudioPlayer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="36" column="5" selection-start-line="36" selection-start-column="5" selection-end-line="36" selection-end-column="5" />
+            <state relative-caret-position="221">
+              <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -111,11 +57,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PluginList.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Cumulus/Plugins/PluginList.java">
+      <file leaf-file-name="CommandManager.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Cumulus/Managers/CommandManager.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="510">
-              <caret line="34" column="40" selection-start-line="34" selection-start-column="40" selection-end-line="34" selection-end-column="40" />
+            <state relative-caret-position="323">
+              <caret line="28" column="4" selection-start-line="28" selection-start-column="4" selection-end-line="28" selection-end-column="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AudioManager.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Cumulus/Managers/AudioManager.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="12" column="65" selection-start-line="12" selection-start-column="65" selection-end-line="12" selection-end-column="65" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -123,14 +78,59 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BotStatus.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Plugins/Core/BotStatus.java">
+      <file leaf-file-name="TrackRequest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Cumulus/Util/Audio/TrackRequest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="15" column="5" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
+            <state relative-caret-position="204">
+              <caret line="14" column="30" selection-start-line="14" selection-start-column="30" selection-end-line="14" selection-end-column="30" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AudioProvider.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Cumulus/Util/Audio/AudioProvider.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Command.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Cumulus/Util/Commands/Command.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="21" column="33" selection-start-line="21" selection-start-column="33" selection-end-line="21" selection-end-column="33" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CommandList.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Cumulus/Util/Commands/CommandList.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1411">
+              <caret line="95" column="37" selection-start-line="95" selection-start-column="37" selection-end-line="95" selection-end-column="37" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PluginLoader.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Cumulus/Plugins/PluginLoader.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1547">
+              <caret line="100" column="12" selection-start-line="100" selection-start-column="12" selection-end-line="100" selection-end-column="12" />
             </state>
           </provider>
         </entry>
@@ -147,6 +147,7 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>System</find>
+      <find>loadfrom</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -330,9 +331,9 @@
     </option>
     <option name="modificationStamps">
       <map>
-        <entry key="$PROJECT_DIR$" value="4574342226440" />
+        <entry key="$PROJECT_DIR$" value="4580407318301" />
         <entry key="$PROJECT_DIR$/.gradle" value="0" />
-        <entry key="$PROJECT_DIR$/build.gradle" value="1365566627" />
+        <entry key="$PROJECT_DIR$/build.gradle" value="2456956764" />
         <entry key="$PROJECT_DIR$/settings.gradle" value="2705515899" />
       </map>
     </option>
@@ -373,12 +374,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/Bot.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Bot.java" />
-        <option value="$PROJECT_DIR$/src/main/java/BotClient.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Util/Logger.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Util/Configuration/ConfigLoader.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Util/Configuration/Configuration.java" />
         <option value="$PROJECT_DIR$/src/main/java/Plugin/PluginList.java" />
         <option value="$PROJECT_DIR$/src/main/java/Event/Event.java" />
         <option value="$PROJECT_DIR$/src/main/java/Plugins/PluginList.java" />
@@ -399,25 +394,42 @@
         <option value="$PROJECT_DIR$/src/main/java/Plugins/PacketCloud/PingPongEvent.java" />
         <option value="$PROJECT_DIR$/src/main/java/PluginLoader/PluginLoader.java" />
         <option value="$PROJECT_DIR$/src/main/java/Event/CustomEvent.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Plugins/Core/StatusRequestEvent.java" />
         <option value="$PROJECT_DIR$/src/main/java/Plugins/PacketCloud/PingPong.java" />
         <option value="$PROJECT_DIR$/src/main/java/Plugins/Google/DialogFlow/DialogFlow.java" />
         <option value="$PROJECT_DIR$/src/main/java/Plugins/Google/DialogFlow/DialogFlowPlugin.java" />
         <option value="$PROJECT_DIR$/src/main/java/Plugins/Google/Dialogflow/DialogFlowPlugin.java" />
-        <option value="$PROJECT_DIR$/build.gradle" />
         <option value="$PROJECT_DIR$/src/main/java/Managers/PluginManager.java" />
         <option value="$PROJECT_DIR$/src/main/java/Plugins/Core/BotStatus.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Plugins/Google/Dialogflow/DialogflowPlugin.java" />
         <option value="$PROJECT_DIR$/src/main/java/PluginLoader/Plugin.java" />
         <option value="$PROJECT_DIR$/src/main/java/PluginLoader/PluginList.java" />
         <option value="$PROJECT_DIR$/src/main/java/Managers/ClientManager.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Cumulus/Events/EventPackage.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Cumulus/Util/GuildSettings/GuildSettings.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Cumulus/Managers/GuildManager.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Plugins/Core/StatusRequestEvent.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Plugins/Google/Dialogflow/DialogflowPlugin.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Plugins/Test/FilePlaybackTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Cumulus/Plugins/PluginLoader.java" />
         <option value="$PROJECT_DIR$/src/main/java/Cumulus/Managers/ClientManager.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Cumulus/Events/CustomEvent.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Cumulus/Events/CommandEvent.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Cumulus/Managers/CommandManager.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Cumulus/Util/Configuration/GuildSettings.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Cumulus/Util/Commands/CommandList.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Cumulus/Util/Commands/Command.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Cumulus/Plugins/Plugin.java" />
+        <option value="$PROJECT_DIR$/build.gradle" />
+        <option value="$PROJECT_DIR$/src/main/java/Cumulus/Managers/AudioManager.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Cumulus/Util/Audio/AudioProvider.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Cumulus/Util/Audio/Playlist.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Cumulus/Util/Audio/Track.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Cumulus/Util/Audio/TrackRequest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Cumulus/Util/Audio/GuildAudioPlayer.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-207" />
-    <option name="y" value="-15" />
+    <option name="x" value="1273" />
     <option name="width" value="1294" />
     <option name="height" value="1417" />
   </component>
@@ -429,8 +441,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -515,6 +526,46 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="Cumulus" type="462c0819:PsiDirectoryNode" />
+              <item name="Util" type="462c0819:PsiDirectoryNode" />
+              <item name="Audio" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ALVIS" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ALVIS" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="Cumulus" type="462c0819:PsiDirectoryNode" />
+              <item name="Util" type="462c0819:PsiDirectoryNode" />
+              <item name="Commands" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ALVIS" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ALVIS" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="Cumulus" type="462c0819:PsiDirectoryNode" />
+              <item name="Util" type="462c0819:PsiDirectoryNode" />
+              <item name="Configuration" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ALVIS" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ALVIS" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="Cumulus" type="462c0819:PsiDirectoryNode" />
+              <item name="Util" type="462c0819:PsiDirectoryNode" />
+              <item name="Logging" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ALVIS" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ALVIS" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="Plugins" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -544,11 +595,21 @@
               <item name="Plugins" type="462c0819:PsiDirectoryNode" />
               <item name="PacketCloud" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="ALVIS" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ALVIS" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="Plugins" type="462c0819:PsiDirectoryNode" />
+              <item name="Test" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -559,7 +620,7 @@
     <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gradle" />
+    <property name="settings.editor.selected.configurable" value="preferences.updates" />
   </component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
@@ -665,6 +726,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="2576" height="1426" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32919255" />
@@ -674,26 +736,26 @@
       <window_info anchor="right" id="Capture Analysis" order="4" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50039065" side_tool="true" weight="0.32919255" />
       <window_info anchor="right" id="Maven Projects" order="5" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.30124223" />
       <window_info anchor="bottom" id="Version Control" order="10" weight="0.32919255" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32919255" />
-      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.49960938" weight="0.33540374" />
+      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.49960938" weight="0.3338546" />
       <window_info id="Capture Tool" order="5" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13394277" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.12877584" />
       <window_info anchor="bottom" id="sbt-shell-toolwindow" order="8" weight="0.32919255" />
       <window_info anchor="right" id="Gradle" order="6" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="3" />
       <window_info anchor="right" id="Theme Preview" order="8" />
-      <window_info id="Favorites" order="4" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Messages" order="12" weight="0.32841614" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info id="Favorites" order="4" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.32838154" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32919255" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Build" order="11" weight="0.3291634" />
+      <window_info anchor="bottom" id="Build" order="11" weight="0.32841614" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout>
@@ -727,151 +789,23 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="1" />
+    </breakpoint-manager>
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/Plugins/PacketCloud/PingPong.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Cumulus/Util/Audio/GuildAudioPlayer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" selection-start-line="19" selection-end-line="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Plugins/Google/Dialogflow/DialogflowPlugin.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="42" column="62" selection-start-line="42" selection-start-column="62" selection-end-line="42" selection-end-column="62" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Cumulus/Bootstrap/Bootstrapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="20" column="39" selection-start-line="20" selection-start-column="39" selection-end-line="20" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Cumulus/Util/Configuration/ConfigWrapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="41" selection-start-line="41" selection-end-line="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Cumulus/Plugins/PluginLoader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1020">
-          <caret line="75" column="33" selection-start-line="75" selection-start-column="33" selection-end-line="75" selection-end-column="33" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#9052#9053#0" expanded="true" />
-            <element signature="e#9085#9086#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Plugins/PacketCloud/PingPong.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="17" column="5" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Cumulus/Util/Configuration/Configuration.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="18" selection-start-line="18" selection-end-line="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Cumulus/Managers/ClientManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="952">
-          <caret line="68" column="15" selection-start-line="68" selection-start-column="15" selection-end-line="68" selection-end-column="15" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Cumulus/Managers/PluginManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="26" column="15" selection-start-line="26" selection-start-column="15" selection-end-line="26" selection-end-column="15" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Cumulus/Plugins/PluginList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="22" column="91" selection-start-line="22" selection-start-column="91" selection-end-line="22" selection-end-column="91" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Cumulus/Plugins/Plugin.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2567">
-          <caret line="179" column="24" selection-start-line="179" selection-start-column="24" selection-end-line="179" selection-end-column="24" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#2929#2930#0" expanded="true" />
-            <element signature="e#2976#2977#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Plugins/Core/BotStatus.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="17" column="1" lean-forward="true" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Cumulus/Bootstrap/Bootstrapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="646">
-          <caret line="38" column="147" selection-start-line="38" selection-start-column="147" selection-end-line="38" selection-end-column="147" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Cumulus/Util/Configuration/ConfigWrapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="18" column="19" selection-start-line="18" selection-start-column="19" selection-end-line="18" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Cumulus/Util/Configuration/Configuration.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="18" selection-start-line="18" selection-end-line="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Cumulus/Util/Logger.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Cumulus/Util/Logging/Logger.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="510">
           <caret line="33" column="79" selection-start-line="33" selection-start-column="79" selection-end-line="33" selection-end-column="79" />
@@ -892,7 +826,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Cumulus/Util/Logger.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Cumulus/Util/Logging/Logger.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="510">
           <caret line="33" column="79" selection-start-line="33" selection-start-column="79" selection-end-line="33" selection-end-column="79" />
@@ -920,7 +854,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Cumulus/Util/Logger.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Cumulus/Util/Logging/Logger.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="510">
           <caret line="33" column="79" selection-start-line="33" selection-start-column="79" selection-end-line="33" selection-end-column="79" />
@@ -942,64 +876,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Cumulus/Util/Logger.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="33" column="79" selection-start-line="33" selection-start-column="79" selection-end-line="33" selection-end-column="79" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Cumulus/Bootstrap/Event/EventPackage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="5" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Cumulus/Util/Configuration/Configuration.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="18" selection-start-line="18" selection-end-line="18" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Cumulus/Bootstrap/Event/EventPackage.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/Plugins/TestPlugin.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/Cumulus/Util/Configuration/ConfigWrapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="41" selection-start-line="41" selection-end-line="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Cumulus/Plugins/PluginProperties.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1989">
-          <caret line="117" column="52" selection-start-line="117" selection-start-column="52" selection-end-line="117" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Cumulus/Bootstrap/Bootstrapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="20" column="39" selection-start-line="20" selection-start-column="39" selection-end-line="20" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Cumulus/Bootstrap/Event/CustomEvent.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="27" column="17" selection-start-line="27" selection-start-column="17" selection-end-line="27" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Cumulus/Bootstrap/Event/CustomEvent.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/Plugins/PacketCloud/PingPongEvent.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/Plugins/Core/StatusRequestEvent.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="43" selection-start-line="4" selection-start-column="43" selection-end-line="4" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Plugins/DialogFlow/DialogFlow.java" />
     <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.auth/google-auth-library-oauth2-http/0.9.1/50e9dff3f87c495318f554ca91abd65babcbd937/google-auth-library-oauth2-http-0.9.1-sources.jar!/com/google/auth/oauth2/DefaultCredentialsProvider.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -1029,25 +909,32 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Cumulus/Plugins/PluginLoader.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Cumulus/Managers/PluginManager.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="263">
-          <caret line="18" column="57" selection-start-line="18" selection-start-column="51" selection-end-line="18" selection-end-column="57" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#9052#9053#0" expanded="true" />
-            <element signature="e#9085#9086#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="340">
+          <caret line="36" column="5" selection-start-line="36" selection-start-column="5" selection-end-line="36" selection-end-column="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Plugins/PacketCloud/PingPong.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Cumulus/Util/Logging/Logger.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Cumulus/Util/Configuration/Configuration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Cumulus/Events/EventPackage.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/Plugins/PacketCloud/PingPong.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="10" selection-end-column="5" />
         </state>
       </provider>
     </entry>
@@ -1055,28 +942,55 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="425">
           <caret line="41" column="32" selection-start-line="41" selection-start-column="32" selection-end-line="41" selection-end-column="32" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Cumulus/Plugins/Plugin.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Plugins/Test/FilePlaybackTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1802">
-          <caret line="124" column="40" selection-start-line="124" selection-start-column="40" selection-end-line="124" selection-end-column="40" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#2929#2930#0" expanded="true" />
-            <element signature="e#2976#2977#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="408">
+          <caret line="26" column="16" selection-start-line="26" selection-start-column="16" selection-end-line="26" selection-end-column="16" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/build.gradle">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Cumulus/Bootstrap/Bootstrapper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" selection-start-line="19" selection-end-line="19" />
+        <state relative-caret-position="408">
+          <caret line="28" column="4" selection-start-line="28" selection-start-column="4" selection-end-line="28" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Cumulus/Util/Configuration/ConfigWrapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="18" column="19" selection-start-line="18" selection-start-column="19" selection-end-line="18" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Cumulus/Plugins/PluginList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="612">
+          <caret line="40" lean-forward="true" selection-start-line="40" selection-end-line="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Cumulus/Plugins/PluginProperties.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="918">
+          <caret line="103" column="43" selection-start-line="103" selection-start-column="43" selection-end-line="103" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Plugins/Core/StatusRequestEvent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Cumulus/Managers/ClientManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="816">
+          <caret line="60" column="5" selection-start-line="60" selection-start-column="5" selection-end-line="60" selection-end-column="5" />
         </state>
       </provider>
     </entry>
@@ -1084,39 +998,127 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="15" column="5" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Cumulus/Events/CommandEvent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="32" selection-start-line="32" selection-end-line="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Cumulus/Events/CustomEvent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="74" selection-start-line="4" selection-start-column="74" selection-end-line="4" selection-end-column="74" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Cumulus/Managers/GuildManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="10" selection-start-line="3" selection-start-column="10" selection-end-line="3" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Cumulus/Util/Configuration/GuildSettings.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Cumulus/Plugins/PluginLoader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1547">
+          <caret line="100" column="12" selection-start-line="100" selection-start-column="12" selection-end-line="100" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Cumulus/Util/Commands/Command.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="21" column="33" selection-start-line="21" selection-start-column="33" selection-end-line="21" selection-end-column="33" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Cumulus/Plugins/PluginList.java">
+    <entry file="file://$PROJECT_DIR$/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="34" column="40" selection-start-line="34" selection-start-column="40" selection-end-line="34" selection-end-column="40" />
+        <state relative-caret-position="323">
+          <caret line="19" column="44" selection-start-line="19" selection-start-column="44" selection-end-line="19" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Cumulus/Util/Audio.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/Cumulus/Util/Commands/CommandList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1411">
+          <caret line="95" column="37" selection-start-line="95" selection-start-column="37" selection-end-line="95" selection-end-column="37" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Cumulus/Managers/PluginManager.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Cumulus/Util/Audio/Track.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/Cumulus/Plugins/Plugin.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="36" column="5" selection-start-line="36" selection-start-column="5" selection-end-line="36" selection-end-column="5" />
+        <state relative-caret-position="969">
+          <caret line="73" selection-start-line="73" selection-end-line="73" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Cumulus/Managers/ClientManager.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Cumulus/Util/Audio/TrackRequest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="30" selection-start-line="30" selection-end-line="30" />
+        <state relative-caret-position="204">
+          <caret line="14" column="30" selection-start-line="14" selection-start-column="30" selection-end-line="14" selection-end-column="30" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Cumulus/Managers/AudioManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="12" column="65" selection-start-line="12" selection-start-column="65" selection-end-line="12" selection-end-column="65" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Cumulus/Util/Audio/AudioProvider.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Cumulus/Util/Audio/GuildAudioPlayer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Cumulus/Managers/CommandManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="28" column="4" selection-start-line="28" selection-start-column="4" selection-end-line="28" selection-end-column="4" />
         </state>
       </provider>
     </entry>
@@ -1126,7 +1128,7 @@
       <state key="ArtifactsStructureConfigurable.UI">
         <settings>
           <artifact-editor />
-          <last-edited>DialogflowPlugin:jar</last-edited>
+          <last-edited>FilePlaybackTest:jar</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

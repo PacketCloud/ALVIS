@@ -1,6 +1,6 @@
 package Cumulus.Util.Configuration;
 
-import Cumulus.Util.Logger;
+import Cumulus.Util.Logging.Logger;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import org.json.simple.JSONObject;
 import org.json.simple.parser.JSONParser;

@@ -1,7 +1,7 @@
 package Cumulus.Plugins;
 
 import Cumulus.Managers.ClientManager;
-import Cumulus.Util.Logger;
+import Cumulus.Util.Logging.Logger;
 import org.apache.commons.io.FilenameUtils;
 import org.json.simple.JSONObject;
 import org.json.simple.parser.JSONParser;
@@ -18,7 +18,7 @@ public class PluginLoader {
     private static final String RELATIVE_PLUGIN_ROOT_PATH = "\\plugins";
     private static final String PLUGIN_ROOT_PATH = System.getProperty("user.dir") + RELATIVE_PLUGIN_ROOT_PATH;
 
-    private static final String PLUGIN_EXTENSION = "jar";
+    private static final String JAR_EXTENSION = "jar";
     private static final String PLUGIN_PROPERTIES_FILE = "properties.json";
 
     public static PluginList loadPlugins(ClientManager clientManager) {
@@ -41,7 +41,7 @@ public class PluginLoader {
         for (File file : directoryListing){
             if (isPropertiesFile(file)){
                 if (hasProperties){
-                    Logger.errorContext(PluginLoader.class, "Directory " + dir.getPath() + " has multiple plugin properties file.");
+                    Logger.errorContext(PluginLoader.class, "Directory " + dir.getPath() + " has multiple plugin properties files.");
                     obscureConfiguration = true;
                 }else{
                     hasProperties = true;
@@ -89,7 +89,7 @@ public class PluginLoader {
     private static boolean isJarFile(File file) {
         if (file.isFile()) {
             String extension = FilenameUtils.getExtension(file.getName());
-            if (extension.toLowerCase().equals(PLUGIN_EXTENSION)) {
+            if (extension.toLowerCase().equals(JAR_EXTENSION)) {
                 return true;
             }
         }
