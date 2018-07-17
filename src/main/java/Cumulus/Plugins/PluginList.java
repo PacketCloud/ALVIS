@@ -80,4 +80,13 @@ public class PluginList {
         return PList.size();
     }
 
+    public Plugin getPlugin(Class PluginClass) {
+        for (Plugin p : PList){
+            if (p.getClass().equals(PluginClass)){
+                return p;
+            }
+        }
+        return null;
+    }
+
 }

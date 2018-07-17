@@ -1,5 +1,10 @@
 package Cumulus.Managers;
 
 public class GuildManager {
-    //TODO
+
+    private ClientManager ClientManager;
+
+    public GuildManager(ClientManager clientManager) {
+        ClientManager = clientManager;
+    }
 }

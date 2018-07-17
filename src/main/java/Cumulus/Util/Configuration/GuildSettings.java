@@ -6,12 +6,12 @@ import sx.blah.discord.handle.obj.IRole;
 public class GuildSettings {
     private IGuild Guild;
     private String GuildID;
-    private String DefaultCommandPrefix;
+    private String CommandPrefix;
     private boolean AllowForcedPrefix;
     private boolean AllowCustomPrefix;
 
     private final String RELATIVE_GUILDSETTINGS_DIRECTORY_PATH = "\\config\\GuildSettings";
-    private final String RELATIVE_DEFAULT_GUILDSETTINGS_PATH = "\\config\\GuildSettings\\DefaultSettings.json";
+    private final String RELATIVE_DEFAULT_GUILDSETTINGS_FILE_PATH = "\\config\\GuildSettings\\DefaultSettings.json";
 
     public GuildSettings(IGuild guild) {
         this.Guild = guild;

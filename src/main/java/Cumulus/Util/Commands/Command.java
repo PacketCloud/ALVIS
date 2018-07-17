@@ -1,5 +1,6 @@
 package Cumulus.Util.Commands;
 
+import Cumulus.Events.CommandEvent;
 import Cumulus.Plugins.Plugin;
 import com.google.gson.Gson;
 import org.json.simple.JSONObject;
@@ -21,6 +22,7 @@ public class Command {
     private transient Plugin CommandProvider;
     private String CommandSyntax;
     private String CommandDescription;
+    private CommandEvent CommandEvent;
 
     public Command(String name, String displayName, String syntax, String description, Plugin provider, String customPrefix, String defaultPrefix, String forcedPrefix){
         if (name == null | displayName == null | syntax == null | description== null | provider == null){
@@ -40,7 +42,7 @@ public class Command {
     }
 
     public void setName(String name) {
-        CommandName = name.replaceAll(" ", "");
+        CommandName = name.replaceAll("\\s","");
     }
 
     public void setDisplayName(String displayName) {

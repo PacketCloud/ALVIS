@@ -6,11 +6,14 @@ import com.sedmelluq.discord.lavaplayer.source.AudioSourceManagers;
 
 public class AudioManager {
 
-    private AudioPlayerManager playerManager;
+    private ClientManager ClientManager;
+    private AudioPlayerManager PlayerManager;
 
-    public AudioManager() {
-        playerManager = new DefaultAudioPlayerManager();
-        AudioSourceManagers.registerRemoteSources(playerManager);
+    public AudioManager(ClientManager clientManager) {
+        ClientManager = clientManager;
+
+        PlayerManager = new DefaultAudioPlayerManager();
+        AudioSourceManagers.registerRemoteSources(PlayerManager);
     }
 
 }
